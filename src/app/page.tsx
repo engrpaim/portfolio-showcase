@@ -2,6 +2,8 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 export default function Home() {
+
+  
   return (
     <>
       <section id="portfolio" className={styles.secDesign}>
@@ -25,11 +27,22 @@ export default function Home() {
             </div>
           </div>
           <div className={styles.portfolioContent}>
-            <p>
-              I'M A WEB DEVELOPER & DESIGNER FROM THE PHILIPPINES,<br />
-              CRAFTING CLEAN, USER-FRIENDLY DIGITAL EXPERIENCES.<br />
-              I LOVE NATURE, MUSIC, AND A GOOD BURGER.
-            </p>
+            <div>
+              <p style={{textIndent: '5em' }}>
+                I'M A WEB DEVELOPER & DESIGNER FROM THE PHILIPPINES.
+                CRAFTING CLEAN, USER-FRIENDLY DIGITAL EXPERIENCES.
+                I LOVE NATURE, MUSIC, AND A GOOD BURGER.
+              </p>
+            </div>
+            <div>
+              <div>
+                <button className={styles.portFolioButton}>
+                  <span className={styles.scrollWrapper}>
+                    <span className={styles.scrollText}>CONTACT</span>
+                  </span>
+                </button>  
+              </div>
+            </div>
           </div>
         </div>
       </section>

@@ -10,20 +10,25 @@
 .portfolioTitle {
   position: absolute;
   bottom: 0;
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
 }
 .portfolioContent {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
   font-family: Arial, sans-serif;
   position: absolute;
   right: 0;
-  font-size: 1.7rem;
-  font-weight: bold;
-  top: 50vh;
+  width: 40%;
+  font-size: 1.9rem;
+  font-weight: 600;
+  top: 60vh;
 }
 .portfolioTitle h1 {
   font-weight: 800;
   font-size: 12rem;
 }
+
 .animateContainer {
   display: flex;
   gap: 0.5rem;
@@ -36,6 +41,6 @@
 }
 .animateWeb:hover {
   color: #ffb86a;
-  transform: rotate(-8deg) translateY(-18px);
+  transform: rotate(-10deg) translateY(-18px);
   transition: transform 0.1s ease-in;
 }
